@@ -8,6 +8,10 @@ function App() {
       <FallingHearts />
 
       <Home />
+
+      <div className="page-copyright">
+        © {new Date().getFullYear()} Developed by Farrell Liko T.
+      </div>
     </div >
   );
 }

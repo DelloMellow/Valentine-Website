@@ -405,6 +405,21 @@ body {
   }
 }
 
+.page-copyright {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 10px;
+  color: #FF1493;
+  background-color: rgba(255, 229, 240, 0.9);
+  padding: 8px 16px;
+  border: 2px solid #FF69B4;
+  border-radius: 4px;
+  z-index: 20;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .retro-window {
@@ -441,5 +456,12 @@ body {
 
   .pixel-btn {
     width: 100%;
+  }
+
+  .page-copyright {
+    bottom: 10px;
+    right: 10px;
+    font-size: 8px;
+    padding: 6px 12px;
   }
 }
